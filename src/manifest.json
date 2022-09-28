@@ -1,0 +1,13 @@
+{
+    "name": "contextMenus",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Description of Extension",
+    "permissions": [
+          "contextMenus"
+    ],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    }
+}
